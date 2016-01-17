@@ -1,6 +1,6 @@
 ##
 
-TARGETS = main
+TARGETS = main.pdf
 
 TEXFILES = $(wildcard *.tex)
 PDFS = $(addsuffix .pdf,$(TARGETS))
